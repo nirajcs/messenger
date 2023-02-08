@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width:100%;
+    display: flex;
+    background: white;
+    justify-content: space-between;
+    padding: 30px 0px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+.header a{
+    text-decoration: none;
+    margin-right: 60px;
+    color: black;
+    font-weight: 600;
+    font-size: larger;
+    font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+}
+.header a:hover{
+    text-decoration: underline solid 5px #0088FF;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    margin-left: 50px;
+}
+.options{
+    margin-right: 80px;
+}
+.left{
+    width: 50%;
+}
+.right{
+    width: 50%;
+    padding: 70px 0 0 50px;
+}
+.content{
+    margin: 50px 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.quote{
+    width: fit-content;
+    margin-bottom: -100px;
+    font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+    font-weight: 500;
+    background:  linear-gradient(83.84deg, #0088FF -6.87%, #A033FF 26.54%, #FF5C87 58.58%);
+    background-clip: unset;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 100px;
+    letter-spacing: -4px;
+}
+.info{
+    margin-top: 120px;
+    color: #595959;
+    font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.text-field input{
+    height: 36px;
+    width: 370px;
+    border-radius: 10px;
+    border: none;
+    background: rgba(0, 0, 0, 0.04);
+    padding: 8px 24px;
+    margin-bottom: 15px;
+    font-size: 19px;
+}
+.login{
+    margin: 30px 0px;
+}
+.login input{
+    height: 50px;
+    width: auto;
+    color: white;
+    background-color: #0a7cff;
+    border-radius: 24px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 9px 20px;
+}
+.login input:hover{
+    background-color: #A033FF;
+}
+.login a{
+    margin: 0px 30px;
+    font-size: larger;
+    color: #0088FF;
+}
+.check{
+    display: flex;
+    margin: 20px 0px;
+}
+.check input{
+    height: 20px;
+    width: 20px;
+}
+.check label{
+    line-height: 15px;
+    font-size: large;
+    padding: 8px 10px;
+    color: #595959;
+}
+.download img{
+    margin: 0 10px;
+    padding: 0;
+    height: 50px;
+    width: 150px;
+    
+}
+.right img{
+    width: 100%;
+}
+
+.footer{
+    margin: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+}
+.agreement{
+    padding-top: 20px;
+}
+.agreement a{
+    text-decoration: none;
+    margin-right: 50px;
+    color: black;
+}
+.agreement select{
+    height: 25px;
+    width: 100px;
+    border: none;
+}
+.meta img{
+    margin: 10px;
+    height: 50px;
+    width: 150px;
+}
